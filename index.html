@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinhos</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/img/vinho_icon.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/img/logo.svg" />
+      <nav>
+        <ul>
+          <li><a href="#services">Info</a></li>
+          <li><a href="#feedbacks">About</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="intro">
+      <div class="main">
+        <h1>Rosso di Montefalco</h1>
+        <p>
+          Mi amet blandit dolor tellus sagittis, sem etiam ut. Ipsum auctor
+          cursus ut id sed risus lacus ornare iaculis. Pellentesque felis diam
+          adipiscing mattis. Semper semper amet ut sodales.
+        </p>
+        <a href="#contact" class="button">Get in touch</a>
+      </div>
+      <figure class="initial-figure">
+        <span class="circle"></span>
+        <img
+          src="./assets/img/img_vinho.png"
+          alt="Vinho principal"
+          class="vinho"
+        />
+      </figure>
+    </section>
+    <a href="" class="arrow">
+      <img
+        src="./assets/img/arrow.svg"
+        alt="seta para redirecionar o usuario dentro da pagina"
+      />
+    </a>
+    <section id="services">
+      <h2>Rooso di Montefalcone</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora quis
+        nisi voluptas officia obcaecati magni, necessitatibus alias, laudantium
+        qui nulla commodi! Perspiciatis nihil facere, dicta officiis doloremque
+        quasi libero maxime.
+      </p>
+	  <div class="container">
+		<div class="content">
+			<div class="circle_content">
+				<img src="./assets/img/vinho_icon.svg" alt="Icone de uva">
+			</div>
+			<h3>Vinho</h3>
+		</div>
+		<div class="content">
+			<div class="circle_content">
+				<img src="./assets/img/vinho_icon.svg" alt="Icone de uva">
+			</div>
+			<h3>vinho</h3>
+		</div>
+		<div class="content">
+			<div class="circle_content">
+				<img src="./assets/img/vinho_icon.svg" alt="Icone de uva">
+			</div>
+			<h3>vinho</h3>
+		</div>
+	  </div>
+	  <a href="#contact" class="button bg-white">Get in touch</a>
+    </section>
+	<footer id="footer">
+		<p class="footer-mail">info@loremipsum.com · 450 45 82 30</p>
+		<div class="footerIcons">
+			<a href="#" id="">
+				<img src="./assets/img/facebook.svg" target='_blank'alt="Icon facebook">
+			</a>
+			<a href="#" id="">
+				<img src="./assets/img/instagram.svg" target='_blank' alt="Icon Instagram">
+			</a>
+			<a href="#" id="">
+				<img src="./assets/img/linkedin.svg" target='_blank'alt="Icon Linkedin">
+			</a>
+		</div>
+		<p class="copyright">Copyright ©<span id="date"></span></p>
+	</footer>
+	<script>
+		var date =new Date()
+		document.getElementById("date").innerHTML =date.getFullYear()
+	</script>
+  </body>
+</html>
