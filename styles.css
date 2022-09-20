@@ -142,6 +142,56 @@ li > a {
 .bg-white:hover{
 color:#fff
 }
+.Feedbacks{
+	display: flex;
+	margin: 6rem 0;
+	padding: 0 4.3rem;
+	gap: 5.125rem
+
+}
+.Feedbacks > div{
+	display: flex;
+	flex-direction: column;
+	gap:10.25rem;
+	width: 46%;
+	justify-content: space-between;
+}
+.Feedbacks > .left{
+	align-items: flex-end;
+
+}
+.Feedbacks > div > img {
+	max-width: 100%;
+}
+.comment > p{
+ margin: 1vh 0;
+}
+.feedbacks-button{
+	margin-left:auto ;
+	margin-right: auto;
+}
+
+.italic-banner{
+	padding: 10.75rem 0;
+	background-color: #541010;
+	margin: 5rem 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.italic-banner > h4{
+	font-weight: 400;
+	font-size: 3rem;
+	color: #fff;
+	font-family: italic;
+}
+.comment{
+	border:1px solid #541010;
+	color:#541010;
+	padding: 2vh 1vw;
+	max-width: 350px;
+}
 footer{
 	display: flex;
 	flex-direction: column;
@@ -163,3 +213,4 @@ footer{
 	font-weight: 500;
 	font-size: 1.5rem;
 }
+
